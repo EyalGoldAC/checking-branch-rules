@@ -12,6 +12,5 @@ jobs:
       - uses: deepakputhraya/action-branch-name@master
         with:
           regex: '(NANO-[0-9]+)[a-z0-9._-]+$'
-          allowed_prefixes: 'NANO-/'
           ignore: main,production
           max_length: 30
